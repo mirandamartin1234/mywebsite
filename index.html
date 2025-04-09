@@ -2,7 +2,7 @@
      CSCE 111-504
      April 6 2025 -->
 
-     <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
       font-family: 'Poppins', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f9f9fb;
+      background: linear-gradient(to right, #f9f9fb, #e0ecff);
       color: #333;
     }
     nav {
@@ -26,6 +26,7 @@
       text-decoration: none;
       margin: 0 20px;
       font-weight: bold;
+      font-size: 18px;
       transition: color 0.3s ease;
     }
     nav a:hover {
@@ -41,11 +42,18 @@
     }
     h1 {
       text-align: center;
-      color: #22223b;
+      color: #2a2a72;
+      font-size: 36px;
     }
     p {
-      font-size: 18px;
-      line-height: 1.6;
+      font-size: 20px;
+      line-height: 1.7;
+    }
+    a {
+      color: #00509e;
+    }
+    a:hover {
+      color: #d62828;
     }
     .image-container {
       text-align: center;
@@ -56,12 +64,16 @@
       max-width: 400px;
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+    .image-container img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
 
-<!-- Pages -->
+<!-- Navigation -->
 <nav>
   <a href="index.html">Home</a>
   <a href="page2.html">My Interests</a>
@@ -69,7 +81,7 @@
   <a href="page4.html">AI Page</a>
 </nav>
 
-<!-- Content -->
+<!-- Main Content -->
 <div class="container">
   <h1>Miranda Martin</h1>
   <p>
